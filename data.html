@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Json Practical</title>
+</head>
+
+<body>
+    <h2 style="text-align : center;">Json Practical</h2>
+    <ul id="data"></ul>
+    <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                // Typical action to be performed when the document is ready:
+                var response = JSON.parse(xhttp.responseText);
+                var data = response.data;
+                var output = "";
+                for (var i = 0; i < data.length; i++) {
+                    output +=
+                        "<li>" +
+                        "Name : " +
+                        data[i].name +
+                        "</li>" +
+                        "<li>" +
+                        "Gender : " +
+                        data[i].gender +
+                        "</li>" +
+                        "<li>" +
+                        "Age : " +
+                        data[i].age +
+                        "</li>" +
+                        "<li>" +
+                        "Address : " +
+                        data[i].address +
+                        "</li>" +
+                        "<li>" +
+                        "Favorite Fruit : " +
+                        data[i].favoriteFruit +
+                        "</li>" +
+                        "</br>";
+                }
+                document.getElementById("data").innerHTML = output;
+            }
+        };
+        xhttp.open("GET", "data.json", true);
+        xhttp.send();
+    </script>
+</body>
+
+</html>

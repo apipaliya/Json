@@ -1,0 +1,53 @@
+{
+   "data" : [
+        {
+          "name": "Nolan Nieves",
+          "gender": "male",
+          "age": 21,
+          "address": "435 Bergen Place, Wedgewood, Alaska, 3992",
+          "favoriteFruit": "banana"
+        },
+        {
+          "name": "Maggie Bernard",
+          "gender": "female",
+          "age": 35,
+          "address": "839 Verona Street, Bentonville, Hawaii, 7714",
+          "favoriteFruit": "apple"
+        },
+        {
+          "name": "Sandoval Hooper",
+          "gender": "male",
+          "age": 27,
+          "address": "819 Beverly Road, Newcastle, Virginia, 686",
+          "favoriteFruit": "banana"
+        },
+        {
+          "name": "Diann Rios",
+          "gender": "female",
+          "age": 25,
+          "address": "541 Little Street, Riviera, New Jersey, 5319",
+          "favoriteFruit": "strawberry"
+        },
+        {
+          "name": "Petty Walls",
+          "gender": "male",
+          "age": 33,
+          "address": "590 Walker Court, Hamilton, Maryland, 7002",
+          "favoriteFruit": "strawberry"
+        },
+        {
+          "name": "Lawson Hartman",
+          "gender": "male",
+          "age": 20,
+          "address": "182 Hart Place, Groveville, District Of Columbia, 6854",
+          "favoriteFruit": "strawberry"
+        },
+        {
+          "name": "Samantha Kirk",
+          "gender": "female",
+          "age": 20,
+          "address": "472 Meeker Avenue, Detroit, California, 2548",
+          "favoriteFruit": "apple"
+        }
+    ]
+}
